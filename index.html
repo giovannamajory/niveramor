@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Para o amor da minha vida</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="particles"></canvas>
+
+<!-- INTRO -->
+<div id="intro">
+  <div class="intro-content">
+    <h1>For You 💜</h1>
+    <p class="subtitle">Tentei fazer algo que goste (já me perdoa, pois, de design vc sabe como eu sou kkkk)</p>
+
+    <button onclick="startExperience()">Entrar</button>
+  </div>
+</div>
+
+<!-- MENU -->
+<nav class="menu">
+  <a href="#inicio">Início</a>
+  <a href="#momento1">Nós</a>
+  <a href="#momento2">Sentimentos</a>
+  <a href="#final">Final</a>
+</nav>
+
+<button id="autoScrollBtn" onclick="toggleAutoScroll()">Auto</button>
+
+<main>
+
+<section id="inicio" class="section fade">
+  <h1>Agora você está aqui 💜</h1>
+</section>
+
+<section id="momento1" class="section fade">
+  <img src="images/foto01.jpeg" class="media">
+  <h2>Eu não esperava...</h2>
+  <p>Mas você apareceu e mudou tudo, me deu sentido, meu deu VIDA.</p>
+</section>
+
+<section id="momento2" class="section fade">
+  <img src="images/foto2.jpeg" class="media">
+  <h2>E quando percebi...</h2>
+  <p>Você já era a melhor parte dos meus dias.</p>
+</section>
+
+<section id="final" class="section fade">
+  <video controls class="media">
+    <source src="images/video1.mp4" type="video/mp4">
+  </video>
+
+  <h2>Você e seu hiperfoco em dançar...</h2>
+  <p>
+    Eu amo cada detalhe em você...<br><br>
+  Você transformou minha vida em algo muito mais bonito.<br><br>
+    EU TE AMO MUITO 💜
+  </p>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
